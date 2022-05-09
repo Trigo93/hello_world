@@ -18,5 +18,7 @@ jobs:
         with:
           python-version: 3.8 #install the python needed
       - name: execute py script # run the hello_world.py
+        env:
+          TEST_SECRET: ${{ secrets.TEST_SECRET }} 
         run: |
           python3 hello_world.py
