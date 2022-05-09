@@ -3,4 +3,5 @@
 print("Hello world!")
 
 # Access test secret variable
-print("Your secret is", $TEST_SECRET)
+test = os.environ['TEST_SECRET']
+print("Your secret is", test)
