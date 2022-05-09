@@ -1,5 +1,6 @@
-# Simplest python code. Ever.
+import os
 
+# Simplest python code. Ever.
 print("Hello world!")
 
 # Access test secret variable
