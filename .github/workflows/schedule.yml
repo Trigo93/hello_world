@@ -1,6 +1,6 @@
 # This is a basic workflow that is scheduled
 
-name: Test workflow
+name: Manual workflow
 
 on:
   schedule:
